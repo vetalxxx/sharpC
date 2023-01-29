@@ -19,10 +19,10 @@ int[] FillArray(int number, int start, int finish)
   int[] arr = new int[number];
   for (int i = 0; i < number; i++)
   {
-    arr[i] = new Random().Next(start, finish);
+    arr[i] = new Random().Next(start, finish + 1);
   }
     return arr;
-}
+}8
 
 int GetNum(string text)
 {
