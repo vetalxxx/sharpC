@@ -22,7 +22,7 @@ int[] FillArray(int number, int start, int finish)
     arr[i] = new Random().Next(start, finish + 1);
   }
     return arr;
-}8
+}
 
 int GetNum(string text)
 {
