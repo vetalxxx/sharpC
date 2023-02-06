@@ -11,13 +11,13 @@ void ArithmeticMeanColumns(int[,] arr)
   for (int i = 0; i < arr.GetLength(1); i++)
   {
     double result = 0;
-    int count = 0;
+    //int count = 0;
     for (int j = 0; j < arr.GetLength(0); j++)
     {
       result += arr[j, i];
-      count++;
+      //count++;
     }
-    double res = result / count;
+    double res = result / arr.GetLength(0);
     Console.Write(Math.Round(res, 1) + "\t");
   }
 }
